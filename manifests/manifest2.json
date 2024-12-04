@@ -1,0 +1,79 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://conbene25.github.io/ImageAPITesting/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "RandomImages",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution" : "Random Zine by Connor Benedict is dedicated to the Public Domain with Creative Commons Zero CC0 1.0",
+  "sequences" : [ {
+    "@id" : "http://463bb9e5-b77e-411e-93a6-b25b251d304b",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://0e0a0145-ad7e-4119-ac4d-6068b7931401",
+      "@type" : "sc:Canvas",
+      "label" : "YaleBook",
+      "height" : 601,
+      "width" : 947,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://37966837-9c0e-4f73-92af-430ab755a2e6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 601,
+          "width" : 947
+        },
+        "on" : "http://0e0a0145-ad7e-4119-ac4d-6068b7931401"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9e803a9c-0cb7-4b4b-98ca-375284ec5fcf",
+      "@type" : "sc:Canvas",
+      "label" : "Zinespage",
+      "height" : 2751,
+      "width" : 3668,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://65716a4d-114f-431a-ac78-811fbaee3995",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://conbene25.github.io/ImageAPITesting/images/IMG_4687/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://conbene25.github.io/ImageAPITesting/images/IMG_4687",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2751,
+          "width" : 3668
+        },
+        "on" : "http://9e803a9c-0cb7-4b4b-98ca-375284ec5fcf"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
