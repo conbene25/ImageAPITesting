@@ -1,0 +1,13 @@
+{
+  "id" : "https://conbene25.github.io/ImageAPITesting/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in conbene25/ImageAPITesting project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://conbene25.github.io/ImageAPITesting/manifests/manifest2.json",
+    "label" : "RandomImages"
+  } ]
+}
