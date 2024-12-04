@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 115,
+    "height" : 86
+  }, {
+    "width" : 230,
+    "height" : 172
+  }, {
+    "width" : 459,
+    "height" : 344
+  }, {
+    "width" : 917,
+    "height" : 688
+  }, {
+    "width" : 1834,
+    "height" : 1376
+  }, {
+    "width" : 3668,
+    "height" : 2751
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3668,
+  "@id" : "https://conbene25.github.io/ImageAPITesting/images/IMG_4687",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2751
+}
